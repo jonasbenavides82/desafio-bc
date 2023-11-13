@@ -44,6 +44,6 @@ resource "aws_api_gateway_deployment" "consolidado_diario_deployment" {
   depends_on = [aws_api_gateway_integration.consolidado_diario_integration]
 
   rest_api_id = aws_api_gateway_rest_api.consolidado_diario_api.id
-  stage_name  = "prod"
+  stage_name  = "dev"
 }
 
