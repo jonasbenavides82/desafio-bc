@@ -59,6 +59,6 @@ resource "aws_api_gateway_deployment" "controle_lancamentos_deployment" {
   depends_on = [aws_api_gateway_integration.controle_lancamentos_integration]
 
   rest_api_id = aws_api_gateway_rest_api.controle_lancamentos_api.id
-  stage_name  = "prod"
+  stage_name  = "dev"
 }
 
