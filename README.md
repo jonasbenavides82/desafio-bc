@@ -57,11 +57,6 @@ Envie uma requisição GET para o endpoint da API para obter o saldo consolidado
 3. Configure as variáveis de ambiente para apontar para o DynamoDB Local nas funções Lambda (consulte os arquivos `terraform-controle-lancamentos.tf` e `terraform-consolidado-diario.tf`).
 4. Execute as funções Lambda localmente para desenvolvimento.
 
-## Considerações
-
-- Certifique-se de configurar corretamente as permissões no AWS IAM para as funções Lambda e DynamoDB.
-- Os códigos fornecidos são um ponto de partida e podem precisar ser adaptados de acordo com as necessidades específicas do projeto.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests e relatar problemas.
